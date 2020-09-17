@@ -14,15 +14,15 @@ export default {
       token: "",
     };
   },
-  created() {
-    // let time = setInterval((res) => {
-    //   if (getToken()) {
-    //     this.getListData();
-    //     clearInterval(time);
-    //   } else {
-    //   }
-    // }, 1000);
-  },
+  // created() {
+  //   let time = setInterval((res) => {
+  //     if (getToken()) {
+  //       this.getListData();
+  //       clearInterval(time);
+  //     } else {
+  //     }
+  //   }, 1000);
+  // },
   methods: {
     // getListData() {
     //   getList()

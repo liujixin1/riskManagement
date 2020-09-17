@@ -27,8 +27,8 @@ import { mockXHR } from '../mock'
 if (process.env.NODE_ENV === 'production') {
     mockXHR()
 }
-axios.defaults.baseURL = 'http://fk.qihuo.api.hihill.cn/' //测试接口
-    // axios.defaults.baseURL = 'http://hqsb.fkapi.jyqhjy.com/' //正式接口
+// axios.defaults.baseURL = 'http://fk.qihuo.api.hihill.cn/' //测试接口
+axios.defaults.baseURL = 'http://hqsb.fkapi.jyqhjy.com/' //正式接口
 
 Vue.prototype.$axios = axios;
 // set ElementUI lang to EN

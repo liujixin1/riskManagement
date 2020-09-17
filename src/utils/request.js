@@ -18,8 +18,8 @@ function endLoading() { //使用Element loading-close 方法
 }
 // create an axios instance
 const service = axios.create({
-    baseURL: 'http://fk.qihuo.api.hihill.cn/', // url = base url + request url 测试
-    // baseURL: 'http://hqsb.fkapi.jyqhjy.com/', // url = base url + request url 正式
+    // baseURL: 'http://fk.qihuo.api.hihill.cn/', // url = base url + request url 测试
+    baseURL: 'http://hqsb.fkapi.jyqhjy.com/', // url = base url + request url 正式
 
     // baseURL: process.env.VUE_APP_BASE_API, // url = base url + request url
     // withCredentials: true, // send cookies when cross-domain requests
